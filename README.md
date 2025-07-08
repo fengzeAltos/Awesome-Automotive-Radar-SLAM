@@ -109,6 +109,8 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
  * <font color=DarkBlue><big>2021</big></font> - **Milli-RIO**: Ego-Motion Estimation With Low-Cost Millimetre-Wave Radar __`Sensors`__ [[Paper](https://ieeexplore.ieee.org/document/9193901)]
 
+ * <font color=DarkBlue><big>2021</big></font> - Radar-Inertial State Estimation and Obstacle Detection for Micro-Aerial Vehicles in Dense Fog __`SPAR`__ [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-71151-1_1)]
+
  * <font color=DarkBlue><big>2020</big></font> - Radar Inertial Odometry With Online Calibration __`ENC`__ [[Paper](https://ieeexplore.ieee.org/document/9317343)]
 
  * <font color=DarkBlue><big>2020</big></font> - An EKF Based Approach to Radar Inertial Odometry __`MFI`__ [[Paper](https://ieeexplore.ieee.org/document/9235254)]
@@ -121,19 +123,43 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 **Fusion of radar with lidar, camera, GNSS, and other sensors.**
 
-- [ ] Add relevant resources.
+* <font color=DarkBlue><big>2025</big></font> - **GV-iRIOM**: GNSS-visual-aided 4D radar inertial odometry and mapping in large-scale environments __`P&RS`__ [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000449)]
+
+* <font color=DarkBlue><big>2025</big></font> - **GaRLIO**: Gravity enhanced Radar-LiDAR-Inertial Odometry __`ICRA`__ [[Paper](https://arxiv.org/pdf/2502.07703)]
+
+* <font color=DarkBlue><big>2024</big></font> - A robust baro-radar-inertial odometry m-estimator for multicopter navigation in cities and forests __`MFI`__ [[Paper](https://ieeexplore.ieee.org/document/10705761)]
+
+* <font color=DarkBlue><big>2024</big></font> - Degradation Resilient LiDAR-Radar-Inertial Odometry
+ __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611444)]
+
+* <font color=DarkBlue><big>2024</big></font> - **DeRO**: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801645)]
+
+* <font color=DarkBlue><big>2024</big></font> - **DGRO**: Doppler Velocity and Gyroscope-Aided Radar Odometry __`Sensors`__ [[Paper](https://www.mdpi.com/1424-8220/24/20/6559)]
+
+* <font color=DarkBlue><big>2023</big></font> - 4D Radar/IMU/GNSS Integrated Positioning and Mapping For Large-Scale Environments __`P&RS`__ [[Paper](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1223/2023/)]
+
+* <font color=DarkBlue><big>2023</big></font> - 4DRadarSLAM: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)]
+
+* <font color=DarkBlue><big>2022</big></font> - GNSS aided Radar Inertial Odometry for UAS Flights in Challenging Conditions __`AERO`__ [[Paper](https://ieeexplore.ieee.org/document/9843326)]
+
+* <font color=DarkBlue><big>2019</big></font> - Real-Time Pose Graph SLAM based on Radar __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/8813841)]
+
+* <font color=DarkBlue><big>2016</big></font> - Robust Localization based on Radar Signal Clustering __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/7535485)]
 
 ## Radar Tensors
 
 **Radar data representations, deep learning, and tensor-based methods.**
 
-- [ ] Add relevant resources.
+* <font color=DarkBlue><big>2024</big></font> - **Radarize**: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry __`MOBISYS`__ [[Paper](https://arxiv.org/pdf/2311.11260)]
 
 ---
 
 ## Related Surveys
+* <font color=DarkBlue><big>2025</big></font> - Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review __`T-ITS`__ [[Paper](https://ieeexplore.ieee.org/document/10952908)]
 
-- [ ] List key papers and survey articles.
+* <font color=DarkBlue><big>2024</big></font> - 4D mmWave Radar for Autonomous Driving Perception: A Comprehensive Survey __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10477463)]
+
+* <font color=DarkBlue><big>2024</big></font> - 4D Millimeter-Wave Radar in Autonomous Driving: A Survey __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2306.04242v4)]
 
 ## Contributing
 
