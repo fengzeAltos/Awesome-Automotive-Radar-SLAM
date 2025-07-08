@@ -138,7 +138,7 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 * <font color=DarkBlue><big>2023</big></font> - 4D Radar/IMU/GNSS Integrated Positioning and Mapping For Large-Scale Environments __`P&RS`__ [[Paper](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1223/2023/)]
 
-* <font color=DarkBlue><big>2023</big></font> - 4DRadarSLAM: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)]
+* <font color=DarkBlue><big>2023</big></font> - **4DRadarSLAM**: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)]
 
 * <font color=DarkBlue><big>2022</big></font> - GNSS aided Radar Inertial Odometry for UAS Flights in Challenging Conditions __`AERO`__ [[Paper](https://ieeexplore.ieee.org/document/9843326)]
 
@@ -148,7 +148,7 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 ## Radar Tensors
 
-**Radar data representations, deep learning, and tensor-based methods.**
+**Radar tensors based methods.**
 
 * <font color=DarkBlue><big>2024</big></font> - **Radarize**: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry __`MOBISYS`__ [[Paper](https://arxiv.org/pdf/2311.11260)]
 
