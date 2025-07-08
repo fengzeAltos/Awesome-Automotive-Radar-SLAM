@@ -1,6 +1,6 @@
 # Awesome-Automotive-Radar-SLAM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated collection of high-quality resources, papers, and tools dedicated to Automotive Radar SLAM (Simultaneous Localization and Mapping) and odometry. This repository is designed to assist researchers and engineers in discovering leading materials for radar-based localization, mapping, and sensor fusion in autonomous vehicles. While many SLAM methods exist for Navtech radar, this list specifically highlights <font color=red>**on-chip automotive radar**</font> SLAM and odometry—a fast-growing area with significant recent advancements.
+A curated collection of high-quality resources, papers, and tools dedicated to Automotive Radar SLAM (Simultaneous Localization and Mapping) and odometry. This repository is designed to assist researchers and engineers in discovering leading materials for radar-based localization, mapping, and sensor fusion in autonomous vehicles. While many SLAM methods exist for Navtech spinning radar, this list specifically highlights <font color=red>**phased-array automotive radar**</font> SLAM and odometry—a fast-growing area with significant recent advancements.
 
 ---
 
@@ -24,7 +24,7 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 - Pure radar-based SLAM and odometry
 - Radar-inertial fusion
 - Multi-sensor fusion (radar, lidar, camera, GNSS, etc.)
-- Radar data representations and learning (tensors, deep learning)
+- Non-pointcloud data representations (tensors etc.)
 
 Feel free to suggest additions !!!
 
@@ -123,6 +123,8 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 **Fusion of radar with lidar, camera, GNSS, and other sensors.**
 
+* <font color=DarkBlue><big>2025</big></font> - **CRADMap**: Applied Distributed Volumetric Mapping with 5G-Connected Multi-Robots and 4D Radar Perception __`ICARM`__ [[Paper](https://arxiv.org/pdf/2503.00262)] [[code]](https://github.com/Maaz-qureshi98/CRADMap-Beyond-the-Visible)
+
 * <font color=DarkBlue><big>2025</big></font> - **GV-iRIOM**: GNSS-visual-aided 4D radar inertial odometry and mapping in large-scale environments __`P&RS`__ [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000449)]
 
 * <font color=DarkBlue><big>2025</big></font> - **GaRLIO**: Gravity enhanced Radar-LiDAR-Inertial Odometry __`ICRA`__ [[Paper](https://arxiv.org/pdf/2502.07703)]
@@ -137,6 +139,9 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 * <font color=DarkBlue><big>2024</big></font> - **DGRO**: Doppler Velocity and Gyroscope-Aided Radar Odometry __`Sensors`__ [[Paper](https://www.mdpi.com/1424-8220/24/20/6559)]
 
 * <font color=DarkBlue><big>2023</big></font> - 4D Radar/IMU/GNSS Integrated Positioning and Mapping For Large-Scale Environments __`P&RS`__ [[Paper](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1223/2023/)]
+
+* <font color=DarkBlue><big>2023</big></font> - **Infradar-Localization**: single-chip infrared- and radar-based Monte
+Carlo localization __`CASE`__ [[Paper](https://robotik.informatik.uni-wuerzburg.de/telematics/download/case2023.pdf)]
 
 * <font color=DarkBlue><big>2023</big></font> - **4DRadarSLAM**: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)]
 
