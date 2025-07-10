@@ -2,6 +2,9 @@
 
 A curated collection of high-quality resources, papers, and tools dedicated to Automotive Radar SLAM (Simultaneous Localization and Mapping) and odometry. This repository is designed to assist researchers and engineers in discovering leading materials for radar-based localization, mapping, and sensor fusion in autonomous vehicles. While many SLAM methods exist for Navtech spinning radar, this list specifically highlights <font color=red>**phased-array automotive radar**</font> SLAM and odometry—a fast-growing area with significant recent advancements.
 
+The repository is continuously updated as new research and tools emerge ... Feel free to suggest additions !!!
+
+
 ---
 
 ## Table of Contents
@@ -26,18 +29,16 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 - Multi-sensor fusion (radar, lidar, camera, GNSS, etc.)
 - Non-pointcloud data representations (tensors etc.)
 
-Feel free to suggest additions !!!
-
 ## Radar Only
 
 **Papers focused on radar-only SLAM and odometry.**
 * <font color=DarkBlue><big>2025</big></font> - Ground-Aware Automotive Radar Odometry __`ICRA`__ [[Paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/casado-herraez2025icra.pdf)]
 
-* <font color=DarkBlue><big>2024</big></font> - **Radar4Motion**: IMU-Free 4D Radar Odometry with Robust Dynamic Filtering and RCS-Weighted Matching __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10685149)] 
+* <font color=DarkBlue><big>2024</big></font> - **Radar4Motion**: IMU-Free 4D Radar Odometry with Robust Dynamic Filtering and RCS-Weighted Matching __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10715681)][[code](https://github.com/ailab-hanyang/Radar4Motion)] 
 
 * <font color=DarkBlue><big>2024</big></font> - Radar-Only Odometry and Mapping for Autonomous Vehicles __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10610311)]
 
-* <font color=DarkBlue><big>2024</big></font> - Doppler-only Single-scan 3D Vehicle Odometry __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611199)] 
+* <font color=DarkBlue><big>2024</big></font> - Doppler-only Single-scan 3D Vehicle Odometry __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611199)][[code](https://github.com/andresgalu/doppler_odometry)] 
 
 * <font color=DarkBlue><big>2024</big></font> - **EFEAR-4D**: Ego-Velocity Filtering for Efficient and Accurate 4D radar Odometry __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10685149)]
 
@@ -67,18 +68,18 @@ Feel free to suggest additions !!!
 * <font color=DarkBlue><big>2025</big></font> - **Doppler-SLAM**: Doppler-Aided Radar-Inertial and LiDAR-Inertial
 Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2504.11634)]
 
-* <font color=DarkBlue><big>2025</big></font> - Impact of Temporal Delay on Radar-Inertial Odometry __`Arxiv Preprint`__ [[Paper](http://arxiv.org/pdf/2503.02509)]
+* <font color=DarkBlue><big>2025</big></font> - Impact of Temporal Delay on Radar-Inertial Odometry __`Arxiv Preprint`__ [[Paper](http://arxiv.org/pdf/2503.02509)][[code](https://github.com/unizgfer-lamor/FGO-RIO-T)]
 
-* <font color=DarkBlue><big>2025</big></font> - Ground-Optimized 4D Radar-Inertial Odometry via Continuous Velocity Integration using Gaussian Process __`ICRA`__ [[Paper](https://www.arxiv.org/pdf/2502.08093)]
+* <font color=DarkBlue><big>2025</big></font> - **Go-RIO**: Ground-Optimized 4D Radar-Inertial Odometry via Continuous Velocity Integration using Gaussian Process __`ICRA`__ [[Paper](https://www.arxiv.org/pdf/2502.08093)][[code](https://github.com/wooseongY/Go-RIO)]
 
 * <font color=DarkBlue><big>2025</big></font> - EKF-Based Radar-Inertial Odometry with Online Temporal Calibration __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/11018354)]
 
-* <font color=DarkBlue><big>2024</big></font> - 4D Radar-Inertial Odometry based on Gaussian Modeling and Multi-Hypothesis Scan Matching __`Arxiv Preprint`__ [[Paper](http://arxiv.org/pdf/2412.13639)]
+* <font color=DarkBlue><big>2024</big></font> - 4D Radar-Inertial Odometry based on Gaussian Modeling and Multi-Hypothesis Scan Matching __`Arxiv Preprint`__ [[Paper](http://arxiv.org/pdf/2412.13639)][[code](https://github.com/robotics-upo/gaussian-rio)]
 
-* <font color=DarkBlue><big>2024</big></font> - Loosely coupled 4D-Radar-Inertial Odometry for Ground Robots __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2411.17289)]
+* <font color=DarkBlue><big>2024</big></font> - Loosely coupled 4D-Radar-Inertial Odometry for Ground Robots __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2411.17289)][[code](https://github.com/robotics-upo/4D-Radar-Odom)]
 
 * <font color=DarkBlue><big>2024</big></font> - **RIV-SLAM**: Radar-Inertial-Velocity optimization based graph SLAM
- __`CASE`__ [[Paper](https://ieeexplore.ieee.org/document/10711511)]
+ __`CASE`__ [[Paper](https://ieeexplore.ieee.org/document/10711511)][[code](https://github.com/Wayne-DWA/RIV-SLAM)]
 
  * <font color=DarkBlue><big>2024</big></font> - **River**: A Tightly-Coupled Radar-Inertial Velocity Estimator Based on Continuous-Time Optimization __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10529532)]
 
@@ -91,7 +92,7 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
  * <font color=DarkBlue><big>2024</big></font> - Incorporating Point Uncertainty in Radar SLAM
  __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10833750)]
 
- * <font color=DarkBlue><big>2024</big></font> - **Less is More**: Physical-enhanced Radar-Inertial Odometry __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611471)]
+ * <font color=DarkBlue><big>2024</big></font> - **Less is More**: Physical-enhanced Radar-Inertial Odometry __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611471)][[code](https://github.com/HKUST-Aerial-Robotics/RIO)]
 
  * <font color=DarkBlue><big>2023</big></font> - **DRIO**: Robust Radar-Inertial Odometry in Dynamic Environments __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10207713)]
 
@@ -99,21 +100,23 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
  * <font color=DarkBlue><big>2023</big></font> - **4D iRIOM**: 4D Imaging Radar Inertial Odometry and Mapping __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10100861)]
 
+ * <font color=DarkBlue><big>2022</big></font> - **x-RIO**: Radar Inertial Odometry with Multiple Radar Sensors and Yaw Aiding __`Gyroscopy and Navigation`__ [[Paper](https://link.springer.com/article/10.1134/S2075108721040039)][[code](https://github.com/christopherdoer/rio)]
+
  * <font color=DarkBlue><big>2022</big></font> - Tightly-Coupled EKF-Based Radar-Inertial Odometry __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/9981396)]
 
  * <font color=DarkBlue><big>2022</big></font> - Radar-Inertial State-Estimation for UAV Motion in Highly Agile Manoeuvres __`ICUAS`__ [[Paper](https://ieeexplore.ieee.org/document/9836130)]
 
  * <font color=DarkBlue><big>2021</big></font> - Continuous-time Radar-inertial Odometry for Automotive Radars __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/9636014)]
 
- * <font color=DarkBlue><big>2021</big></font> - Yaw aided Radar Inertial Odometry using Manhattan World Assumptions __`ICINS`__ [[Paper](https://ieeexplore.ieee.org/document/9470842)]
+ * <font color=DarkBlue><big>2021</big></font> - Yaw aided Radar Inertial Odometry using Manhattan World Assumptions __`ICINS`__ [[Paper](https://ieeexplore.ieee.org/document/9470842)][[code](https://github.com/christopherdoer/rio)]
 
  * <font color=DarkBlue><big>2021</big></font> - **Milli-RIO**: Ego-Motion Estimation With Low-Cost Millimetre-Wave Radar __`Sensors`__ [[Paper](https://ieeexplore.ieee.org/document/9193901)]
 
  * <font color=DarkBlue><big>2021</big></font> - Radar-Inertial State Estimation and Obstacle Detection for Micro-Aerial Vehicles in Dense Fog __`SPAR`__ [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-71151-1_1)]
 
- * <font color=DarkBlue><big>2020</big></font> - Radar Inertial Odometry With Online Calibration __`ENC`__ [[Paper](https://ieeexplore.ieee.org/document/9317343)]
+ * <font color=DarkBlue><big>2020</big></font> - Radar Inertial Odometry With Online Calibration __`ENC`__ [[Paper](https://ieeexplore.ieee.org/document/9317343)][[code](http://github.com/christopherdoer/rio)]
 
- * <font color=DarkBlue><big>2020</big></font> - An EKF Based Approach to Radar Inertial Odometry __`MFI`__ [[Paper](https://ieeexplore.ieee.org/document/9235254)]
+ * <font color=DarkBlue><big>2020</big></font> - An EKF Based Approach to Radar Inertial Odometry __`MFI`__ [[Paper](https://ieeexplore.ieee.org/document/9235254)][[code](https://github.com/christopherdoer/rio)]
 
  * <font color=DarkBlue><big>2020</big></font> - Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/9196666)]
 
@@ -127,14 +130,14 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 * <font color=DarkBlue><big>2025</big></font> - **GV-iRIOM**: GNSS-visual-aided 4D radar inertial odometry and mapping in large-scale environments __`P&RS`__ [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000449)]
 
-* <font color=DarkBlue><big>2025</big></font> - **GaRLIO**: Gravity enhanced Radar-LiDAR-Inertial Odometry __`ICRA`__ [[Paper](https://arxiv.org/pdf/2502.07703)]
+* <font color=DarkBlue><big>2025</big></font> - **GaRLIO**: Gravity enhanced Radar-LiDAR-Inertial Odometry __`ICRA`__ [[Paper](https://arxiv.org/pdf/2502.07703)][[code](https://github.com/ChiyunNoh/GaRLIO)]
 
 * <font color=DarkBlue><big>2024</big></font> - A robust baro-radar-inertial odometry m-estimator for multicopter navigation in cities and forests __`MFI`__ [[Paper](https://ieeexplore.ieee.org/document/10705761)]
 
 * <font color=DarkBlue><big>2024</big></font> - Degradation Resilient LiDAR-Radar-Inertial Odometry
  __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611444)]
 
-* <font color=DarkBlue><big>2024</big></font> - **DeRO**: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801645)]
+* <font color=DarkBlue><big>2024</big></font> - **DeRO**: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801645)][[code](https://github.com/hoangvietdo/dero)]
 
 * <font color=DarkBlue><big>2024</big></font> - **DGRO**: Doppler Velocity and Gyroscope-Aided Radar Odometry __`Sensors`__ [[Paper](https://www.mdpi.com/1424-8220/24/20/6559)]
 
@@ -143,9 +146,9 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 * <font color=DarkBlue><big>2023</big></font> - **Infradar-Localization**: single-chip infrared- and radar-based Monte
 Carlo localization __`CASE`__ [[Paper](https://robotik.informatik.uni-wuerzburg.de/telematics/download/case2023.pdf)]
 
-* <font color=DarkBlue><big>2023</big></font> - **4DRadarSLAM**: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)]
+* <font color=DarkBlue><big>2023</big></font> - **4DRadarSLAM**: A 4D Imaging Radar SLAM System for Large-scale Environments based on Pose Graph Optimization __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10160670)][[code](https://github.com/zhuge2333/4DRadarSLAM)]
 
-* <font color=DarkBlue><big>2022</big></font> - GNSS aided Radar Inertial Odometry for UAS Flights in Challenging Conditions __`AERO`__ [[Paper](https://ieeexplore.ieee.org/document/9843326)]
+* <font color=DarkBlue><big>2022</big></font> - GNSS aided Radar Inertial Odometry for UAS Flights in Challenging Conditions __`AERO`__ [[Paper](https://ieeexplore.ieee.org/document/9843326)][[code](https://github.com/christopherdoer/rio)]
 
 * <font color=DarkBlue><big>2019</big></font> - Real-Time Pose Graph SLAM based on Radar __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/8813841)]
 
@@ -155,11 +158,12 @@ Carlo localization __`CASE`__ [[Paper](https://robotik.informatik.uni-wuerzburg.
 
 **Radar tensors based methods.**
 
-* <font color=DarkBlue><big>2024</big></font> - **Radarize**: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry __`MOBISYS`__ [[Paper](https://arxiv.org/pdf/2311.11260)]
+* <font color=DarkBlue><big>2024</big></font> - **Radarize**: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry __`MOBISYS`__ [[Paper](https://arxiv.org/pdf/2311.11260)][[code](https://github.com/ConnectedSystemsLab/radarize_ae)]
 
 ---
 
 ## Related Surveys
+
 * <font color=DarkBlue><big>2025</big></font> - Exploring Radar Data Representations in Autonomous Driving: A Comprehensive Review __`T-ITS`__ [[Paper](https://ieeexplore.ieee.org/document/10952908)]
 
 * <font color=DarkBlue><big>2024</big></font> - 4D mmWave Radar for Autonomous Driving Perception: A Comprehensive Survey __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10477463)]
@@ -168,8 +172,5 @@ Carlo localization __`CASE`__ [[Paper](https://robotik.informatik.uni-wuerzburg.
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or pull request to add new resources, fix errors, or suggest improvements.
+Contributions are always welcome! Please open an issue or pull request to add new resources, fix errors, or suggest improvements.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
