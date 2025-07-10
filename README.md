@@ -78,6 +78,11 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 * <font color=DarkBlue><big>2024</big></font> - Loosely coupled 4D-Radar-Inertial Odometry for Ground Robots __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2411.17289)][[code](https://github.com/robotics-upo/4D-Radar-Odom)]
 
+* <font color=DarkBlue><big>2024</big></font> - Tightly-Coupled Factor Graph Formulation For Radar-Inertial Odometry
+ __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801945)]
+
+* <font color=DarkBlue><big>2024</big></font> - CREVE: An Acceleration-based Constraint Approach for Robust Radar Ego-Velocity Estimation __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2409.16847v2)]
+
 * <font color=DarkBlue><big>2024</big></font> - **RIV-SLAM**: Radar-Inertial-Velocity optimization based graph SLAM
  __`CASE`__ [[Paper](https://ieeexplore.ieee.org/document/10711511)][[code](https://github.com/Wayne-DWA/RIV-SLAM)]
 
@@ -93,6 +98,8 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
  __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10833750)]
 
  * <font color=DarkBlue><big>2024</big></font> - **Less is More**: Physical-enhanced Radar-Inertial Odometry __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/10611471)][[code](https://github.com/HKUST-Aerial-Robotics/RIO)]
+
+ * <font color=DarkBlue><big>2023</big></font> - Radar-Inertial Odometry for Closed-Loop Control of Resource-Constrained Aerial Platforms __`SSRR`__ [[Paper](http://ieeexplore.ieee.org/abstract/document/10499937)]
 
  * <font color=DarkBlue><big>2023</big></font> - **DRIO**: Robust Radar-Inertial Odometry in Dynamic Environments __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10207713)]
 
