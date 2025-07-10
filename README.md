@@ -1,6 +1,6 @@
 # Awesome-Automotive-Radar-SLAM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated collection of high-quality resources, papers, and tools dedicated to Automotive Radar SLAM (Simultaneous Localization and Mapping) and odometry. This repository is designed to assist researchers and engineers in discovering leading materials for radar-based localization, mapping, and sensor fusion in autonomous vehicles. While many SLAM methods exist for Navtech spinning radar, this list specifically highlights <font color=red>**phased-array automotive radar**</font> SLAM and odometry—a fast-growing area with significant recent advancements.
+A curated collection of high-quality resources, papers, and tools dedicated to Automotive Radar SLAM (Simultaneous Localization and Mapping) and odometry. This repository is designed to assist researchers and engineers in discovering leading materials for radar-based localization, mapping, and sensor fusion in autonomous vehicles. While many SLAM methods exist for Navtech spinning radar, this list specifically highlights <font color=red>**Fast chirp FMCW automotive radar**</font> SLAM and odometry—a fast-growing area with significant recent advancements.
 
 The repository is continuously updated as new research and tools emerge ... Feel free to suggest additions !!!
 
@@ -48,11 +48,7 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 
 * <font color=DarkBlue><big>2022</big></font> - **DC-Loc**: Accurate Automotive Radar Based Metric Localization with Explicit Doppler Compensation __`ICRA`__ [[Paper](https://ieeexplore.ieee.org/document/9811561)]
 
-* <font color=DarkBlue><big>2019</big></font> - Real-Time Pose Graph SLAM based on Radar __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/8813841)]
-
 * <font color=DarkBlue><big>2017</big></font> - Increasing FastSLAM accuracy for radar data by integrating the Doppler information __`ICMIM`__ [[Paper](https://ieeexplore.ieee.org/document/7918867)]
-
-* <font color=DarkBlue><big>2016</big></font> - Landmark based Radar SLAM Using Graph Optimization __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/7795967)]
 
 ## Radar Inertial Fusion
 
@@ -81,7 +77,9 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 * <font color=DarkBlue><big>2024</big></font> - Tightly-Coupled Factor Graph Formulation For Radar-Inertial Odometry
  __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801945)]
 
-* <font color=DarkBlue><big>2024</big></font> - CREVE: An Acceleration-based Constraint Approach for Robust Radar Ego-Velocity Estimation __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2409.16847v2)]
+* <font color=DarkBlue><big>2024</big></font> - **Co-RaL**: Complementary Radar-Leg Odometry with 4-DoF Optimization and Rolling Contact __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801960)][[dataset](https://github.com/SangwooJung98/Co-RaL-Dataset)]
+
+* <font color=DarkBlue><big>2024</big></font> - **CREVE**: An Acceleration-based Constraint Approach for Robust Radar Ego-Velocity Estimation __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2409.16847v2)]
 
 * <font color=DarkBlue><big>2024</big></font> - **RIV-SLAM**: Radar-Inertial-Velocity optimization based graph SLAM
  __`CASE`__ [[Paper](https://ieeexplore.ieee.org/document/10711511)][[code](https://github.com/Wayne-DWA/RIV-SLAM)]
@@ -129,6 +127,10 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
  * <font color=DarkBlue><big>2019</big></font> - Environment Mapping and Vehicle Localization with a High-Resolution Radar Prototype __`FAST-zero`__ [[Paper](https://www.researchgate.net/publication/344951866_Environment_Mapping_and_Vehicle_Localization_with_a_High-Resolution_Radar_Prototype)]
 
+ * <font color=DarkBlue><big>2017</big></font> - Real-Time Radar SLAM __`uni-das`__ [[Paper](https://www.uni-das.de/images/pdf/veroeffentlichungen/2017/01.pdf)]
+
+ * <font color=DarkBlue><big>2016</big></font> - Landmark based Radar SLAM Using Graph Optimization __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/7795967)]
+
 ## Radar and Other Sensors Fusion
 
 **Fusion of radar with lidar, camera, GNSS, and other sensors.**
@@ -146,6 +148,10 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 
 * <font color=DarkBlue><big>2024</big></font> - **DeRO**: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/10801645)][[code](https://github.com/hoangvietdo/dero)]
 
+* <font color=DarkBlue><big>2024</big></font> - Adaptive Visual-Aided 4D Radar Odometry Through Transformer-Based Feature Fusion __`IROS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10802367)]
+
+* <font color=DarkBlue><big>2024</big></font> - **4DRVO-Net**: Deep 4D Radar–Visual Odometry Using Multi-Modal and Multi-Scale Adaptive Fusion __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10313030)]
+
 * <font color=DarkBlue><big>2024</big></font> - **DGRO**: Doppler Velocity and Gyroscope-Aided Radar Odometry __`Sensors`__ [[Paper](https://www.mdpi.com/1424-8220/24/20/6559)]
 
 * <font color=DarkBlue><big>2023</big></font> - 4D Radar/IMU/GNSS Integrated Positioning and Mapping For Large-Scale Environments __`P&RS`__ [[Paper](https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/1223/2023/)]
@@ -158,6 +164,8 @@ Carlo localization __`CASE`__ [[Paper](https://robotik.informatik.uni-wuerzburg.
 * <font color=DarkBlue><big>2022</big></font> - GNSS aided Radar Inertial Odometry for UAS Flights in Challenging Conditions __`AERO`__ [[Paper](https://ieeexplore.ieee.org/document/9843326)][[code](https://github.com/christopherdoer/rio)]
 
 * <font color=DarkBlue><big>2019</big></font> - Real-Time Pose Graph SLAM based on Radar __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/8813841)]
+
+* <font color=DarkBlue><big>2017</big></font> - Joint graph optimization towards crowd based mapping __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/8317727)]
 
 * <font color=DarkBlue><big>2016</big></font> - Robust Localization based on Radar Signal Clustering __`IV`__ [[Paper](https://ieeexplore.ieee.org/document/7535485)]
 
