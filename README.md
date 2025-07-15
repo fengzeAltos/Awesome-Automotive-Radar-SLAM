@@ -32,6 +32,11 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 ## Radar Only
 
 **Papers focused on radar-only SLAM and odometry.**
+* <font color=DarkBlue><big>2025</big></font> - **DNOI-4DRO**: Deep 4D Radar Odometry with
+Differentiable Neural-Optimization Iterations __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2505.12310)]
+
+* <font color=DarkBlue><big>2025</big></font> - **CAO-RONet**: A Robust 4D Radar Odometry with Exploring More Information from Low-Quality Points __`ICRA`__ [[Paper](https://arxiv.org/pdf/2503.01438)][[code](https://github.com/NEU-REAL/CAO-RONet)]
+
 * <font color=DarkBlue><big>2025</big></font> - Ground-Aware Automotive Radar Odometry __`ICRA`__ [[Paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/casado-herraez2025icra.pdf)]
 
 * <font color=DarkBlue><big>2024</big></font> - **Radar4Motion**: IMU-Free 4D Radar Odometry with Robust Dynamic Filtering and RCS-Weighted Matching __`T-IV`__ [[Paper](https://ieeexplore.ieee.org/document/10715681)][[code](https://github.com/ailab-hanyang/Radar4Motion)] 
@@ -43,6 +48,9 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 * <font color=DarkBlue><big>2024</big></font> - **EFEAR-4D**: Ego-Velocity Filtering for Efficient and Accurate 4D radar Odometry __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10685149)]
 
 * <font color=DarkBlue><big>2023</big></font> - 4D Radar-Based Pose Graph SLAM With Ego-Velocity Pre-Integration Factor __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10173499)]
+
+* <font color=DarkBlue><big>2023</big></font> - Self-supervised 4-D Radar Odometry for Autonomous Vehicles
+ __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10422466)]
 
 * <font color=DarkBlue><big>2022</big></font> - A Credible and Robust Approach to Ego-Motion Estimation Using an Automotive Radar __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/9743799)]
 
