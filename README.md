@@ -49,6 +49,8 @@ Differentiable Neural-Optimization Iterations __`Arxiv Preprint`__ [[Paper](http
 
 * <font color=DarkBlue><big>2023</big></font> - 4D Radar-Based Pose Graph SLAM With Ego-Velocity Pre-Integration Factor __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10173499)]
 
+* <font color=DarkBlue><big>2023</big></font> - Radar Odometry on SE(3) with Constant Acceleration Motion Prior and Polar Measurement Model __`IROS`__ [[Paper](https://ieeexplore.ieee.org/document/9463737)]
+
 * <font color=DarkBlue><big>2023</big></font> - Self-supervised 4-D Radar Odometry for Autonomous Vehicles
  __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10422466)]
 
