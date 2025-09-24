@@ -32,6 +32,9 @@ Automotive radar is robust to adverse weather and lighting, making it a key sens
 ## Radar Only
 
 **Papers focused on radar-only SLAM and odometry.**
+
+* <font color=DarkBlue><big>2025</big></font> - **4D RadarPR**: Context-Aware 4D Radar Place Recognition in harsh scenarios __`ISPRS JP&RS`__ [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000383)]
+
 * <font color=DarkBlue><big>2025</big></font> - **DNOI-4DRO**: Deep 4D Radar Odometry with
 Differentiable Neural-Optimization Iterations __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2505.12310)]
 
@@ -144,6 +147,8 @@ Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxi
 ## Radar and Other Sensors Fusion
 
 **Fusion of radar with lidar, camera, GNSS, and other sensors.**
+
+* <font color=DarkBlue><big>2025</big></font> - **SNAIL Radar**: A large-scale diverse benchmark for evaluating 4D-radar-based SLAM __`IJRR`__ [[Paper](https://doi.org/10.1177/02783649251329048)] [[dataset]](https://github.com/snail-radar/snail-radar.github.io)
 
 * <font color=DarkBlue><big>2025</big></font> - **CRADMap**: Applied Distributed Volumetric Mapping with 5G-Connected Multi-Robots and 4D Radar Perception __`ICARM`__ [[Paper](https://arxiv.org/pdf/2503.00262)] [[code]](https://github.com/Maaz-qureshi98/CRADMap-Beyond-the-Visible)
 
