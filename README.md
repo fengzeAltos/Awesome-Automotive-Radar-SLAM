@@ -67,6 +67,8 @@ Differentiable Neural-Optimization Iterations __`Arxiv Preprint`__ [[Paper](http
 
 **Combining radar with inertial sensors (IMU) for improved localization.**
 
+* <font color=DarkBlue><big>2025</big></font> - **S3E**: Self-Supervised State Estimation for Radar-Inertial System __`ICCV`__ [[Paper](https://arxiv.org/abs/2509.25984)]
+
 * <font color=DarkBlue><big>2025</big></font> - **RaI-SLAM**: Radar-Inertial SLAM for Autonomous Vehicles
  __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/10947322)]
 
@@ -75,7 +77,7 @@ Differentiable Neural-Optimization Iterations __`Arxiv Preprint`__ [[Paper](http
 * <font color=DarkBlue><big>2025</big></font> - **VGC-RIO**: A Tightly Integrated Radar-Inertial Odometry with Spatial Weighted Doppler Velocity and Local Geometric Constrained RCS Histograms __`Arxiv Preprint`__ [[Paper](https://www.arxiv.org/pdf/2505.09103)]
 
 * <font color=DarkBlue><big>2025</big></font> - **Doppler-SLAM**: Doppler-Aided Radar-Inertial and LiDAR-Inertial
-Simultaneous Localization and Mapping __`Arxiv Preprint`__ [[Paper](https://arxiv.org/pdf/2504.11634)]
+Simultaneous Localization and Mapping __`RA-L`__ [[Paper](https://ieeexplore.ieee.org/document/11108284)][[dataset](https://github.com/Wayne-DWA/Doppler-SLAM)]
 
 * <font color=DarkBlue><big>2025</big></font> - Impact of Temporal Delay on Radar-Inertial Odometry __`Arxiv Preprint`__ [[Paper](http://arxiv.org/pdf/2503.02509)][[code](https://github.com/unizgfer-lamor/FGO-RIO-T)]
 
